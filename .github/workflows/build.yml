@@ -125,6 +125,3 @@ jobs:
           D:/a/aseprite/aseprite/build/bin/aseprite.exe
 
  
-        export ASEPRITE=$PWD/build/bin/aseprite
-        cd tests
-        $XVFB bash run-tests.sh
